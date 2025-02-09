@@ -1,0 +1,8 @@
+opencv
+numpy
+regex
+os
+matplotlib.pyplot
+ultralytics
+yolov8n.pt
+#LSTM #CNN
