@@ -14,13 +14,10 @@ This project analyzes cricket highlights videos to extract and predict key data 
 ```
 Cricket-Analysis/
 │── ball_speed.py           # Detects and calculates ball speed  
-│── ball_trajectory.py      # Predicts the trajectory of the ball  
+│── ball_tracking.py      # Predicts the trajectory of the ball  
 │── ball_type.py            # Classifies the type of delivery  
-│── batter_shot.py          # Identifies batter’s shot type  
-│── bowler_action.py        # Recognizes the bowler’s action  
-│── models/                 # Contains pre-trained models  
-│── data/                   # Sample videos and test cases  
-│── outputs/                # Processed results and predictions  
+│── bat_stroke.py          # Identifies batter’s shot type  
+│── bowler_detection.py      # Recognizes the bowler’s action  
 │── requirements.txt        # Dependencies for running the project  
 │── README.md               # Documentation  
 ```
@@ -29,7 +26,7 @@ Cricket-Analysis/
 
 1. **Clone this repository**  
    ```sh
-   git clone https://github.com/your-username/Cricket-Analysis.git
+   git clone https://github.com/hiteshchandra44/Cricket-Analysis.git
    cd Cricket-Analysis
    ```
 2. **Install dependencies**  
