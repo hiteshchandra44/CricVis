@@ -13,7 +13,8 @@ This project analyzes cricket highlights videos to extract and predict key data 
 
 ```
 Cricket-Analysis/
-│── ball_speed.py           # Detects and calculates ball speed  
+│── ball_detect.py           # Detects the ball
+│── ball_speed.py           # Detects and calculates ball speed 
 │── ball_tracking.py      # Predicts the trajectory of the ball  
 │── ball_type.py            # Classifies the type of delivery  
 │── bat_stroke.py          # Identifies batter’s shot type  
