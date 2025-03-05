@@ -1,4 +1,4 @@
-# 🏏 Cricket Analysis  
+# 🏏 CricVis
 
 This project analyzes cricket highlights videos to extract and predict key data points using computer vision and machine learning techniques.
 
